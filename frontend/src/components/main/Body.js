@@ -218,7 +218,7 @@ class Body extends Component {
       + " " + contact.streetnr 
       + " " + contact.zip 
       + " " + contact.city;
-    url = url +"&key=AIzaSyBX3ymrvPPAfLtqxapJ5p9IF-oQ2Ogpfx8";
+    url = url +"&key=";
     // let place = null;
     await axios
       .get(url)
